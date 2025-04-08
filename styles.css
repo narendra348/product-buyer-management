@@ -1,0 +1,60 @@
+/* Global Styles */
+body {
+  background-color: #000;  /* Full black background */
+  color:black;  /* White text for contrast */
+  font-family: 'Arial', sans-serif;
+}
+
+/* Form Styling */
+input, textarea, select {
+  background-color: #222; /* Dark gray fields */
+  color: #fff; /* White text */
+  border: 1px solid #555; /* Slight border */
+}
+
+input::placeholder, textarea::placeholder {
+  color: #aaa; /* Light gray placeholders */
+}
+
+/* Buttons */
+button {
+  background-color: #007bff; /* Blue color */
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3; /* Darker blue */
+}
+
+/* Delete Buttons */
+.delete-btn {
+  background-color: red;
+  color: white;
+  border-radius: 5px;
+}
+
+.delete-btn:hover {
+  background-color: darkred;
+}
+
+/* Table Styling */
+table {
+  background-color: #111; /* Black table */
+  color: white;
+}
+
+th, td {
+  border: 1px solid #333;
+  padding: 10px;
+}
+
+/* Search Bar */
+#search {
+  background-color: #222;
+  color: white;
+  border: 1px solid #555;
+}
